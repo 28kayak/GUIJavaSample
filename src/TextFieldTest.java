@@ -3,7 +3,6 @@ import java.awt.Container;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -64,4 +63,10 @@ class Tf extends JFrame implements ActionListener
 		in.setColumns(10);
 		
 	}
+	
 }
+/*
+ * this file contains two classes.
+ * Interestingly, complier generates two distinct .class fiels
+ * after it runs. 
+ */
