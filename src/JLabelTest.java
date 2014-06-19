@@ -15,10 +15,18 @@ public class JLabelTest extends JFrame
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		JLabel lb1 = new JLabel("Hello!!");
-		Icon img = new ImageIcon("fish.jpg");
+		Icon img = new ImageIcon("/Users/kaya/Desktop/Screen Shot 2014-06-04 at 1.46.00 AM.png");
 		JLabel lbs = new JLabel(img);
 		
-		
+		cp.add(lb1);
+		cp.add(lbs);
+		setTitle("JLabelTest");
+		setSize(500,700);
+		setVisible(true);
+	}
+	public static void main(String [] args)
+	{
+		new JLabelTest();
 	}
 
 	
